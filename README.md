@@ -52,8 +52,7 @@ The best model achieves **ROC-AUC > 0.90**, making it suitable as a decision-sup
 credit-scoring-model/
 │
 ├── Credit_Scoring_Model.ipynb   # Main Colab notebook (full pipeline)
-├── README.md                    # Project documentation (this file)
-└── requirements.txt             # Python dependencies (optional local use)
+├── README.md                    # Project documentation (this file)  
 ```
 
 ---
@@ -170,7 +169,7 @@ All results are on the **held-out 20% test set** (2,000 records, never seen duri
 ### ▶️ Run on Google Colab (Recommended)
 
 1. Download `Credit_Scoring_Model.ipynb`
-2. Go to [colab.research.google.com](https://colab.research.google.com)
+2. Go to [colab.research.google.com/github/PA-Pal601/CodeAlpha_Credit-Scoring-Model/blob/main/CodeAlpha_Credit_Scoring_Model.ipynb]
 3. Click **File → Upload notebook** and select the `.ipynb` file
 4. Click **Runtime → Run All**
 
@@ -284,14 +283,6 @@ All installed automatically on Colab via `!pip install xgboost imbalanced-learn`
 - [ ] **Fairness audit** — evaluate model bias across demographic groups
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
 
 Made with ❤️ for learning and exploration  
 ⭐ Star this repo if you found it useful!
