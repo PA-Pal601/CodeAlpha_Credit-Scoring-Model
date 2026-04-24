@@ -138,18 +138,6 @@ All tree-based models use raw (unscaled) features. Logistic Regression uses **Ro
 
 ---
 
-## 🏆 Results
-
-All results are on the **held-out 20% test set** (2,000 records, never seen during training).
-
-| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-|---|---|---|---|---|---|
-| Logistic Regression | ~0.82 | ~0.85 | ~0.88 | ~0.86 | ~0.88 |
-| Decision Tree | ~0.83 | ~0.86 | ~0.88 | ~0.87 | ~0.87 |
-| Random Forest | ~0.88 | ~0.90 | ~0.91 | ~0.90 | ~0.93 |
-| Gradient Boosting | ~0.88 | ~0.91 | ~0.91 | ~0.91 | ~0.94 |
-| **XGBoost** ⭐ | **~0.89** | **~0.91** | **~0.92** | **~0.91** | **~0.94** |
-
 > 📌 Exact values vary slightly due to the random synthetic dataset. **XGBoost** consistently achieves the highest ROC-AUC and is selected as the production model.
 
 **Visualizations generated:**
