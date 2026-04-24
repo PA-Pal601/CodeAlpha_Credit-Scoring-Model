@@ -13,24 +13,6 @@
 
 ---
 
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Project Structure](#-project-structure)
-- [Dataset](#-dataset)
-- [Feature Engineering](#-feature-engineering)
-- [Models](#-models)
-- [Evaluation Metrics](#-evaluation-metrics)
-- [Results](#-results)
-- [Getting Started](#-getting-started)
-- [How to Run](#-how-to-run)
-- [Prediction on New Data](#-prediction-on-new-data)
-- [Dependencies](#-dependencies)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
-
----
-
 ## 🧠 Overview
 
 Credit scoring is a critical process in the financial industry — it determines whether an individual qualifies for a loan, credit card, or mortgage. This project builds a full end-to-end machine learning pipeline that:
@@ -134,11 +116,7 @@ All tree-based models use raw (unscaled) features. Logistic Regression uses **Ro
 | **ROC-AUC** | Discrimination ability across all classification thresholds |
 | **CV AUC** | Cross-validated AUC — measures generalization, not overfitting |
 
-> ⚠️ In credit risk, **Recall** and **ROC-AUC** are typically prioritized over raw Accuracy to minimize costly misclassifications.
-
 ---
-
-> 📌 Exact values vary slightly due to the random synthetic dataset. **XGBoost** consistently achieves the highest ROC-AUC and is selected as the production model.
 
 **Visualizations generated:**
 - 📊 Feature distribution plots (Good vs Bad Credit)
